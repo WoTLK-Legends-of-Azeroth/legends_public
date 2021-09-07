@@ -45,3 +45,4 @@ DBC:
 КАРТЫ/КАРТЫ
 СЦЕНАРИИ LUA
 
+[![windows-build](https://github.com/WoTLK-Legends-of-Azeroth/legends_public/actions/workflows/windows_build.yml/badge.svg)](https://github.com/WoTLK-Legends-of-Azeroth/legends_public/actions/workflows/windows_build.yml)
