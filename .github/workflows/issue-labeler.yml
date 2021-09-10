@@ -5,12 +5,12 @@ on:
 
 jobs:
   issue_labeler:
-    if: github.repository == 'azerothcore/azerothcore-wotlk'
+    if: github.repository == 'WoTLK-Legends-of-Azeroth/legends_public/'
     runs-on: ubuntu-latest
     name: Issue Labeler
     steps:
     - name: Issue Labeler
       id: issue-labeler
-      uses: azerothcore/GitHub-Actions@issue-labeler-1.0.1
+      uses: WoTLK-Legends-of-Azeroth/GitHub-Actions@issue-labeler-1.0.1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
