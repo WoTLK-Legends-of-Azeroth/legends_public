@@ -1,2 +1,0 @@
-- name: get-cmake
-  uses: lukka/get-cmake@v3.21.1
